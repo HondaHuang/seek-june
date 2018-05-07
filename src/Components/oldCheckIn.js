@@ -5,7 +5,7 @@ import SignUpR from './SignUpR';
 // import '../css/style.css';
 import Capacity from './Capacity';
 import SignUp from './SignUp';
-import {Container, Row, Col } from 'reactstrap';
+// import {Container, Row, Col } from 'reactstrap';
 // import '../bootstrap.min.js';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import Example from './New';

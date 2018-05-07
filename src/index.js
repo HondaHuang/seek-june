@@ -2,7 +2,7 @@
 import './css/style.css';
 // import "./bootstrap-overrides.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/Capacity.css';
+// import './css/Capacity.css';
 import React from 'react'
 import { render } from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'

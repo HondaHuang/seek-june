@@ -10,7 +10,7 @@ export default class SignUp extends React.Component {
       height: '50vh'
     };
     return (
-      
+      <div className="full">
       <Form style={style}>
         <h2>Reserve Spot / Check In</h2>
         <FormGroup>
@@ -98,8 +98,9 @@ export default class SignUp extends React.Component {
               <option value="290 St Marks Place">Ralph McKee HS - (290 St Marks Place)</option>
             </Input>
         </FormGroup>
-        <Button>Submit</Button>
+        <Button className="seekbtn">Submit</Button>
       </Form>
+      </div>
     );
   }
 } 

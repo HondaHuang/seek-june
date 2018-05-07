@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/style.css';
+// import '../css/style.css';
 import {Map, InfoWindow, Marker, GoogleApiWrapper, handleLocationError} from 'google-maps-react';
 import {getGeoLocation, getLocation} from '../geolocation';
 import SimpleForm from './Places';
@@ -70,7 +70,7 @@ export class MapContainer extends React.Component {
   render() {
     const style = {
         width: '100%',
-        height: '92vh'
+        height: '90vh'
       }
     return (
         <div className="Map" >
